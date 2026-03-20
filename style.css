@@ -1,0 +1,75 @@
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background: #0f2027;
+    letter-spacing: 2px;
+}
+
+/* Section Headings */
+h2 {
+    color: #00cec9;
+    margin-left: 20px;
+}
+
+/* Menu */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #74b9ff;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #00cec9;
+    transition: 0.3s;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* Paragraph */
+p {
+    margin: 20px;
+    font-size: 16px;
+}
+
+/* Button Style (optional if you add later) */
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #00cec9;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00b894;
+}
